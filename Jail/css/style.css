@@ -1,0 +1,260 @@
+*{
+    box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+ font-family: Tahoma;
+   
+}
+.clip a{
+    background-image: linear-gradient(to top,black, rgb(99, 98, 98));
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    color: aliceblue;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+header{
+    margin-top: 6rem;
+    text-align: left;
+    margin-left: 10%;
+}
+fieldset {
+    border: chocolate 1px solid;
+    }
+legend{
+    color: chocolate;
+    margin:5rem 2rem 2rem;
+    font-size: 1.3rem;
+}
+form{
+    line-height: 1.8rem;
+}
+form input{
+    width: auto;
+    padding: 0.3rem;
+}
+form button{
+    padding: 0.5rem 2rem;
+    margin-bottom: 1rem;
+}
+nav {
+    background-image: linear-gradient(to top,black, rgb(99, 98, 98));
+    padding: 0.7rem;
+    margin: 0% 10%;
+}
+nav a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 0.8rem;
+    line-height: 1rem;
+    padding: 0.5rem;
+}
+nav a:hover{
+    color: chocolate;
+}
+article{
+    outline: chocolate;
+}
+article #change:hover{
+    color: chocolate;
+}
+article a{
+    color: chocolate;
+}
+article a :hover{
+    text-decoration: none;
+}
+
+section button{
+    background-image: linear-gradient(to top,rgb(247, 136, 9), rgb(240, 174, 113));
+    border-radius: 20px;
+    border: none;
+    color: aliceblue;
+}
+.row{
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+}
+.columnA{
+    width: 70%;
+}
+.columnB{
+    width: 30%;
+}
+#social_icon{
+    width: 40px;
+    padding: 0.5rem;
+}
+#aside_img{
+    width: 100px;
+
+}
+article fieldset{
+    padding: 1rem;
+    line-height: 2rem;
+}
+article h6{
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+#small{
+    font-size: 0.8rem;
+}
+#space_break{
+    margin-bottom: 6rem;
+}
+aside fieldset{
+    margin-top: 1rem;
+}
+aside input{
+    padding: 0.5rem;
+}
+aside p, hr{
+    margin: 0.5rem;
+}
+aside h4{
+    margin-top: -1rem;
+}
+h4,h5{
+    background-image: linear-gradient(to top,black, rgb(99, 98, 98));
+    color: aliceblue;
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    margin: 0;
+}
+.space_up{
+    padding: 0.5rem;
+}
+.contact_us{
+    line-height: 2rem;
+    margin-top: 2rem;
+}
+.contact_us button{
+    background-color: rgb(55, 166, 231);
+    padding: 0.5rem 1rem;
+    color: aliceblue;
+    border-radius: 4px;
+    box-shadow: none;
+    margin-bottom: 1rem;
+    border: none;
+}
+.search_bar{
+    width: 100%;
+}
+footer{
+    text-align: center;
+}
+footer section{
+    background-color:rgb(248, 232, 202);
+    outline: none;
+    width: 80%;
+    margin-left: 10%;
+    padding: 1rem;
+    color: chocolate;
+}
+footer p{
+   padding: 1rem;
+  
+}
+#affirm{
+    display: none;
+}
+
+
+@media screen and (max-width: 768px){
+    .columnA{
+        width: 60%;
+    }
+    .columnB{
+        width: 40%;
+    }
+    #social_icon{
+        width: 30px;
+        padding: 0.2rem;
+    }
+    #aside_img{
+        width: 100px;
+    
+    }
+    h4,h5{
+        font-size:16px ;
+        padding: 0.3rem;
+    } p{
+        font-size: 12px;
+    }
+    nav a{
+        font-size: 8px;
+        padding: 0.1rem;
+        line-height: 0.5rem;
+    }
+    
+    h1{
+        font-size: 1.8rem;
+    }
+    h3{
+        font-size: 1.1rem;
+    }
+    footer p{
+        padding: 0.8rem;
+     }
+     footer section{
+         font-size: 0.8rem;
+    
+}
+@media screen and (max-width: 576px){
+    .row{
+        display: block;
+    }
+    .columnA, .columnB{
+        width: 100%;
+    }
+    h1{
+        font-size: 1.1rem;
+    }
+    nav a{
+        font-size: 6px;
+    }
+    legend{
+        font-size: 0.9rem;
+    }
+    form{
+        font-size: 13px;
+    }
+    h2{
+        font-size:0.8rem ;
+    }
+    p{
+        font-size: 11px;
+    }
+    article h6{
+        font-size: 0.7rem;
+    }
+    #small{
+        font-size: 10px;
+    }
+    h3{
+      
+        font-size: 0.8rem;
+    }
+    .contact_us label{
+        font-size: 13px;
+    }
+    h4, h5{
+        font-size: 0.8rem;
+    }
+    footer section{
+        font-size: 5px;
+        padding: 0.5rem;
+    }
+    footer p{
+        font-size: 5px;
+        padding: 0.5rem;
+     }
+    
+   
+
+}
